@@ -331,9 +331,7 @@ sudo sh -c "echo 'MQTT_PREFIX=${WSPREFIX}' >> $filename"
 
 sudo sh -c " echo 'SSLREDIRECT=${SSLREDIRECT}' >> $filename"
 
-
-
-cd ..
+# cd ..
 
 
 
