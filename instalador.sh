@@ -171,24 +171,7 @@ do
   echo "         Selected IP ► ${IP} ✅"
 done
 
-#LLAVE PUBLICA PUSH
-printf "\n\n🌐 Ingresa la llave publica para notificaciones push. \n"
 
-while [[ -z "$PUBLIC_VAPID_KEY" ]]
-do
-  read -p "   IP: "  IP
-  echo "         Selected IP ► ${PUBLIC_VAPID_KEY} ✅"
-done
-
-printf "\n\n El sistema está pensado para usar notificaciones push. \n"
-#LLAVE PRIVADA PUSH
-printf "\n\n🌐 Ingresa la llave publica para notificaciones push. \n"
-
-while [[ -z "$PRIVATE_VAPID_KEY" ]]
-do
-  read -p "   IP: "  IP
-  echo "         Selected IP ► ${PRIVATE_VAPID_KEY} ✅"
-done
 
 
 #SSL?
@@ -348,9 +331,6 @@ sudo sh -c "echo 'MQTT_PREFIX=${WSPREFIX}' >> $filename"
 
 sudo sh -c " echo 'SSLREDIRECT=${SSLREDIRECT}' >> $filename"
 
-sudo sh -c " echo 'PUBLIC_VAPID_KEY=${PUBLIC_VAPID_KEY}' >> $filename"
-
-sudo sh -c " echo 'PRIVATE_VAPID_KEY=${PRIVATE_VAPID_KEY}' >> $filename"
 
 
 cd ..
