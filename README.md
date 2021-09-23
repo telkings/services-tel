@@ -2,10 +2,10 @@
 
 Este repositorio contiene los servicios a montar (via docker) para montar la plataforma IoT
 
--Mongodb
--Emqx
--Node
+### -Mongo
 
-[![TELKINGS](https://yt-embed.herokuapp.com/embed?v=ZePfdyJPCvM)](https://www.youtube.com/watch?v=3u9oq65SkdQ&t=2s "Telkings Ingenieria")
+### -Emqx
+
+### -Node
 
 ## Puedes acceder a más información en telkings.com
