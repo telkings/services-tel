@@ -63,7 +63,7 @@ services:
       - "localhost:192.168.0.6"
 
     environment:
-      EMQX_NAME: segurit
+      EMQX_NAME: telkings
       EMQX_HOST: 127.0.0.1
 
       TZ: "${TZ}"
@@ -89,7 +89,7 @@ services:
       EMQX_AUTH__MONGO__PASSWORD: "${MONGO_PASSWORD}"
       EMQX_AUTH__MONGO__AUTH_SOURCE: admin
 
-      EMQX_AUTH__MONGO__DATABASE: "ioticos_god_level"
+      EMQX_AUTH__MONGO__DATABASE: "telkings"
       EMQX_AUTH__MONGO__AUTH_QUERY__COLLECTION: "emqxauthrules"
 
       EMQX_AUTH__MONGO__SUPER_QUERY__COLLECTION: "emqxauthrules"

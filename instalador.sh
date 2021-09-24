@@ -211,6 +211,12 @@ if [[ $SSL -eq 1 ]]
     MQTT_HOST=$DOMAIN
     MQTT_PORT="8084"
     SSLREDIRECT="true"
+
+    #SSL="https://"
+    #WSPREFIX="ws://"
+    #MQTT_PORT="8083"
+    #MQTT_HOST=$DOMAIN
+    #SSLREDIRECT="true"
   else
     SSL="http://"
     WSPREFIX="ws://"
@@ -305,7 +311,7 @@ sudo sh -c "echo 'MONGO_USERNAME=${MONGO_USERNAME}' >> $filename"
 sudo sh -c "echo 'MONGO_PASSWORD=${MONGO_PASSWORD}' >> $filename"
 sudo sh -c "echo 'MONGO_HOST=mongo' >> $filename"
 sudo sh -c "echo 'MONGO_PORT=${MONGO_PORT}' >> $filename"
-sudo sh -c "echo 'MONGO_DATABASE=ioticos_god_level' >> $filename"
+sudo sh -c "echo 'MONGO_DATABASE=telkings' >> $filename"
 sudo sh -c "echo '' >> $filename"
 
 
